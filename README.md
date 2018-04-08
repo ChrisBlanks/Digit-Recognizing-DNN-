@@ -3,3 +3,5 @@ This project is an adaptation of one of the NN created in the Neural Networks an
 https://github.com/mnielsen/neural-networks-and-deep-learning
 
 The original neural network script, "network2.py", by Michael allows a lot of customization of the NN (e.g. choosing hyperparamters, saving a NN, loading a NN). This adaptation,"Hand_Alg_2.py", adds more capabilities to the base NN. For CSV files that represent images in the MNIST format, they can be uploaded into the NN and used for testing (hopefully for training later on). I created a support file for this called "Extra_Test_Set_Maker.py". A CSV file, "mnist_test_10.csv", is provided in this repository. In addition, I have added a function,"start_up()", into the "Hand_Alg_2.py" that abstracts some of the NN creation process away from the user. This function is executed every time the "Hand_Alg_2.py" is ran. The user can enter their desired values while in interactive mode.
+
+The "97_percent_Accuracy" is a deep neural net that I trained myself. It will be used for guessing the digits of unlabeled datasets and outputting the guesses to a text file.
