@@ -12,3 +12,5 @@ The "97_percent_Accuracy" is a deep neural net that I trained myself. It will be
 The current version of this project is constructed for the RaspberryPi 3 Model B. It allows for the user to take a picture with the
 PiCamera, and send that image to a preprocessing script. The preprocessing script will convert the image into a pixel data format
 that resembles the MNIST data set. This data will then be passed into the DNN to be processed.
+
+See the "Demonstration.py" script for more information.
